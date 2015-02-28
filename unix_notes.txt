@@ -1,0 +1,99 @@
+pwd
+cd
+history | sort | less
+history | less
+history | less -h
+less h
+h
+history
+~
+mwd
+/
+/Applications/
+ls .
+ls
+cd iTunes/
+cd Music/
+cd ..
+The\ Flavr\ Blue\ \(shot\ by\ Avi\ Loud\).jpg
+The\ Flavr\ Blue\ -\ Bright\ Vices/
+ls /Applications/Sublime\ Text\ 2.app/
+man ls
+ls -lr
+ls -lt
+ls -l
+ls -t
+cd /
+cd/
+which uname
+echo $PATH
+subl /etc/paths
+echo $EDITOR
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+brew doctor
+uname
+curl -fsSL http://git.io/QxUaOQ | sh
+git config --global user.name 'Alison Klein'
+git config --global user.name 'YOUR FULL NAME'
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'alison.klein@gmail.com'
+git --version
+brew install git
+brew info fish
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/Users/alisonklein/Desktop/patternlab-php-master/core/scripts/generateSite.command ; exit;
+/Volumes/p7zip/7za ; exit;
+./disable_activation_osx ; exit;
+./disable_activation_osx
+sh disable_activation_osx
+sudo -s
+sudo
+cd alisonklein/Desktop/
+chflags nohidden /users/alisonklein/library
+chflags nohidden/users/alisonklein/library
+sudo nano /private/etc/hosts /
+
+^^^ this is the history of actions taken in terminal.
+
+Below: a few notes taken this morning
+
+Why Learn Unix?
+
+“Apps need a home” be it a laptop, mobile phone, web browser, or server.
+
+unix developed by ppl at AT&T in the 60s.
+
+Unix-like variants:
+Linux  is the OS for Android
+Darwin is the Mac equivalent
+
+“We take subdirectories for granted.”
+
+Unix is basically everpresent.
+
+
+Unix Kernel: just a program. it manages the hardware. it is the strawberry filling in between 1) the other programs and 2) cpu, memory, devices
+
+The kernel is safe from hackers. It is the thing that asks for your UN and PW.
+
+Unix Shell: is another program. provides a user interface to the kernel.
+Commands are given via the keyboard, and then interpreted by the computer. Modern systems introduced a graphic user interface to make this process more accessible. the GUI is a shell. audible user commands are also a SHELL.  but when we talk about shell, we are talking about the command line thing.
+
+The shell protects the kernel from corrupted downloads or other things that could hack the server.
+
+uname=“unix name”
+
+
+> = override
+>> = append
+
+
+
+
