@@ -94,6 +94,14 @@ uname=“unix name”
 > = override
 >> = append
 
+anatomy of a git commit:
 
+1. message
+2. id
+3. timestamp
+4. changes
+5. signatire
+
+modify - add - commit // rinse and repeat everytime u wanna make changes to a file or project
 
 
